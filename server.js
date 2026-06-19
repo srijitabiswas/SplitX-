@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONFIG = {
-  DB: "",
+  DB: "process.env.MONGO_URI",
   PORT: 4000,
 };
 
