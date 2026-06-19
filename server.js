@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const CONFIG = {
-  DB: "mongodb+srv://splitxUser:splitx123@cluster0.uxvxf5j.mongodb.net/splitx?retryWrites=true&w=majority",
+  DB: "",
   PORT: 4000,
 };
 
